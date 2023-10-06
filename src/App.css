@@ -13,7 +13,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: url('./assets//bg.jpg');
+  background: url("./assets//bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -21,12 +21,12 @@ body {
 
 .form-control {
   padding: 15px 10px !important;
-  background: rgba(27,27,27,0.5) !important;
+  background: rgba(27, 27, 27, 0.5) !important;
   border: none !important;
   backdrop-filter: blur(5px);
   color: var(--main-text) !important;
   font-size: 18px !important;
-  transition: all .25s ease-in-out !important;
+  transition: all 0.25s ease-in-out !important;
 }
 
 .form-control::placeholder {
@@ -35,7 +35,7 @@ body {
 
 .form-control:focus {
   box-shadow: none !important;
-  background: rgba(27,27,27,1) !important;
+  background: rgba(27, 27, 27, 1) !important;
 }
 
 button {
@@ -43,13 +43,15 @@ button {
   font-weight: bold !important;
 }
 
-.btn-add, .btn-edit {
+.btn-add,
+.btn-edit {
   background-color: #1b1b1b !important;
   border: 1px solid #1b1b1b !important;
-  transition: all .25s ease-in !important;
+  transition: all 0.25s ease-in !important;
 }
 
-.btn-add:hover, .btn-edit:hover {
+.btn-add:hover,
+.btn-edit:hover {
   background-color: #fff;
   color: #1b1b1b;
   box-shadow: 0 3px 10px var(--main-bg);
@@ -57,9 +59,9 @@ button {
 }
 
 .items {
-  background: rgba(27,27,27,0.5);
+  background: rgba(27, 27, 27, 0.5);
   backdrop-filter: blur(5px);
-  border: 1px solid rgba(27,27,27,0.25);
+  border: 1px solid rgba(27, 27, 27, 0.25);
   padding: 20px;
   font-size: 24px;
   color: var(--main-text);
@@ -74,10 +76,10 @@ button {
 }
 
 .btn-del {
- background-color: var(--main-text) !important;
- border: 1px solid var(--main-text) !important;
- color: var(--main-bg) !important;
- transition: all .25s ease-in !important;
+  background-color: var(--main-text) !important;
+  border: 1px solid var(--main-text) !important;
+  color: var(--main-bg) !important;
+  transition: all 0.25s ease-in !important;
 }
 
 .btn-del:hover {
